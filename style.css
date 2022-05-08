@@ -246,7 +246,7 @@ h2 {
     }
     
     .sneakPeekImg {
-       min-width: 120px;
+       min-width: 100px;
        height: 100px;
        margin: 1px 3px;
        cursor: pointer;
