@@ -205,7 +205,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 414px) {
     .header {
         height: 30vh;
         background-image: linear-gradient(to right, rgba(243, 191, 243, 0.6), rgba(108, 26, 108, 0.6)), url(./img/bgImg.jpg);
@@ -228,5 +228,38 @@ h2 {
     }
     .iconLeft, .iconRight {
         display: none;
+    }
+    .sneaks {
+        background-color: rgb(225, 225, 225);
+        border-radius: 5px;
+    }
+    
+    .sneakPeeks {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        overflow: auto;
+        align-items: center;
+        position: relative;
+        scroll-behavior: smooth;
+    }
+    
+    .sneakPeekImg {
+       min-width: 120px;
+       height: 100px;
+       margin: 1px 3px;
+       cursor: pointer;
+       border: 1px solid white;
+       overflow: hidden;
+    }
+    
+    .sneakPeeks::-webkit-scrollbar {
+        -webkit-appearance: none;
+    }
+    
+    .childImg {
+        width: 100%;
+        height: 100%;
     }
 }
