@@ -220,6 +220,7 @@ h2 {
         align-items: center;
     }
     .headerText {
+        padding: 3px;
         font-size: 23px;
         margin: 10px;
     }
