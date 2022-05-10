@@ -25,6 +25,7 @@ body {
 .headerText {
     font-size: 70px;
     margin: 10px;
+    font-weight: 600;
 }
 .header p {
     font-size: 20px;
@@ -193,6 +194,34 @@ h2 {
     align-items: center;
 }
 
+.favicon {
+    margin-top: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right bottom, rgb(118, 52, 118), rgb(79, 0, 79));
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.mdrxm {
+    font-size: 5px;
+}
+
+.tat {
+    display: flex;
+    flex-direction: column;
+}
+
+.dc {
+    text-decoration: underline;
+    font-size: large;
+    text-align: center;
+}
 @keyframes moveInRight {
     0%{
         opacity: 0;
@@ -223,6 +252,7 @@ h2 {
         padding: 3px;
         font-size: 20px;
         margin: 10px;
+        font-weight: 600;
     }
     .header p {
         font-size: 12px;
@@ -287,6 +317,20 @@ h2 {
     }
 
     .tat {
-        
+        display: flex;
+        flex-direction: column;
+    }
+
+    .favicon {
+        color: white;
+        padding: 10px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right bottom, rgb(118, 52, 118), rgb(79, 0, 79));
+    }
+
+    .aboutMe {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
     }
 }
